@@ -31,15 +31,16 @@
 # [관련 이미지 & 동영상]
 
 - 이미지  
-  <img src="./img/관련이미지.jpg">
+  <img src="./image/noname02.png">
 - 동영상
-  [![](./img/그림.png)](https://www.youtube.com/watch?v=5xy4n73WOMM)
+  
+  [![](./image/noname01.png)](https://www.youtube.com/watch?v=nzV6G6NW6uQ)
 
 <br><br>
 
 # [대표 이미지]
 
-![그림](./img/그림.png)
+![그림](./image/mainpic.gif)
 
 <br><br>
 
@@ -130,3 +131,4 @@
 
 ## 4. 기술
 2D PC 게임으로 유니티를 사용하여 제작할 예정이며, 높은 사양이 컴퓨터가 아니더라도 실행에 지장이 없게 만들 예정입니다.
+
