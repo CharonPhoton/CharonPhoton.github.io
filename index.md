@@ -174,3 +174,12 @@
 |15|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
 |16|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="200">|
 |17|스테이지 최고 점수(Stage_HightScore)|<img src="./image/Score.png" width="200">|
+
+## b. 파라미터(속성) 뽑아 보기
+1) 오브젝트 이름 : ReSu, UpReSu, WeakenReSu, BigReSu, MovingReSu
+|속성|영문명칭|설명|비고|
+|:----:|:----:|:----:|:----:|
+|속도|Speed|개체가 왼쪽으로 이동 할 때의 속도 수치||
+|공격력|Damage|개체가 플레이어가 닿을 경우 주는 대미지의 수치||
+|위치|Location|현 개체의 위치||
+|상태|Status|현 개체가 왼쪽으로 완전히 도착했을 때의 bool 변수||
