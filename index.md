@@ -161,3 +161,10 @@
 |2|진행도(Process_bar)|<img src="./image/Process_Bar.png" width="300">|
 |3|체력(Health)|<img src="./image/Life.gif" width="100">|
 |4|회복 가스(Healing_Gas)|<img src="./image/Healing_Gas.gif" width="100">|
+|5|보호막 가스(Shield_Gas)|<img src="./image/Shield_Gas.gif" width="100">|
+|6|부활 가스(Revive_Gas)|<img src="./image/Revive_Gas.gif" width="100">|
+|7|차원막 파편(Dimension_Piece)|<img src="./image/Dimension_Piece.gif" width="100">|
+|8|레슈 물질(ReSu)|<img src="./image/ReSu.png" width="300">|
+|9|응측된 레슈 물질(ReSu)|<img src="./image/UpReSu.png" width="300">|
+|10|약화된 레슈 물질(ReSu)|<img src="./image/WeakenReSu.png" width="100">|
+|11|큰 레슈 물질(ReSu)|<img src="./image/BigReSu.png" width="300">|
