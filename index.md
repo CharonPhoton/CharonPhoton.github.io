@@ -158,6 +158,6 @@
 |연번|오브젝트 이름|오브젝트 이미지|
 |:----:|:----:|:----:|
 |1|주인공(Charactor)|<img src="./image/Charactor.png" width="300">|
-|2|진행도(Process_bar)|<img src="./image/골대.png" width="500">|
-|3|체력(Health)|<img src="./image/홍길동선수.png" height="300">|
-|4|회복 가스(Healing_Gas)|<img src="./image/골킵.png" height="300">|
+|2|진행도(Process_bar)|<img src="./image/Process_Bar.png" width="300">|
+|3|체력(Health)|<img src="./image/Life.png" width="300">|
+|4|회복 가스(Healing_Gas)|<img src="./image/Healing Gas.png" width="300">|
