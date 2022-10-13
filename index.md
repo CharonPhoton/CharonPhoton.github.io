@@ -168,3 +168,4 @@
 |9|응측된 레슈 물질(UpReSu)|<img src="./image/UpReSu.png" width="300">|
 |10|약화된 레슈 물질(WeakenReSu)|<img src="./image/WeakenReSu.png" width="300">|
 |11|큰 레슈 물질(BigReSu)|<img src="./image/Big_ReSu.png" width="300">|
+|12|큰 레슈 물질(BigReSu)|<img src="./image/Big_ReSu.png" width="300">|
