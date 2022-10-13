@@ -159,5 +159,5 @@
 |:----:|:----:|:----:|
 |1|주인공(Charactor)|<img src="./image/Charactor.png" width="300">|
 |2|진행도(Process_bar)|<img src="./image/Process_Bar.png" width="300">|
-|3|체력(Health)|<img src="./image/Life.png" width="300">|
-|4|회복 가스(Healing_Gas)|<img src="./image/Healing Gas.png" width="300">|
+|3|체력(Health)|<img src="./image/Life.gif" width="300">|
+|4|회복 가스(Healing_Gas)|<img src="./image/Healing Gas.gif" width="300">|
