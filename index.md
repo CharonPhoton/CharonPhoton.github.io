@@ -174,7 +174,7 @@
 |14|화살(Arrow)|<img src="./image/Arrow.png" width="300">|
 |15|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
 |16|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="200">|
-|17|스테이지 최고 점수(Stage_HightScore)|<img src="./image/Score.png" width="200">|
+|17|스테이지 최고 점수(Stage_HightScore)|.|
 
 ## b. 파라미터(속성) 뽑아 보기
 
