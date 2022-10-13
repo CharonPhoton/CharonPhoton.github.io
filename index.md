@@ -165,6 +165,6 @@
 |6|부활 가스(Revive_Gas)|<img src="./image/Revive_Gas.gif" width="100">|
 |7|차원막 파편(Dimension_Piece)|<img src="./image/Dimension_Piece.gif" width="100">|
 |8|레슈 물질(ReSu)|<img src="./image/ReSu.png" width="300">|
-|9|응측된 레슈 물질(ReSu)|<img src="./image/UpReSu.png" width="300">|
-|10|약화된 레슈 물질(ReSu)|<img src="./image/WeakenReSu.png" width="300">|
-|11|큰 레슈 물질(ReSu)|<img src="./image/Big_ReSu.png" width="100">|
+|9|응측된 레슈 물질(UpReSu)|<img src="./image/UpReSu.png" width="300">|
+|10|약화된 레슈 물질(WeakenReSu)|<img src="./image/WeakenReSu.png" width="300">|
+|11|큰 레슈 물질(BigReSu)|<img src="./image/Big_ReSu.png" width="300">|
