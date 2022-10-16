@@ -508,6 +508,8 @@
 
 # [ 이벤트 흐름도 ]<a name='8'></a>
 
-j
+<img src="./image/gameproject.png" width="1024">
+
+# [ 이벤트 흐름도 ]<a name='8'></a>
 
 <img src="./image/gameproject.png" width="1024">
