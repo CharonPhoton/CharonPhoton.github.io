@@ -508,6 +508,9 @@
 
 # [ 이벤트 흐름도 ]<a name='8'></a>
 
+j
+
 (./image/gameproject.png)
+
 
 <img src="./image/gameproject.png" width="500" height="300>
