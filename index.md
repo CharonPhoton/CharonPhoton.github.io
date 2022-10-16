@@ -507,4 +507,5 @@
 - ESC키를 누르면 메뉴가 나오게 만든다.
 
 # [ 이벤트 흐름도 ]<a name='8'></a>
+
 <img src="./image/gameproject.png" width="500" height="300>
