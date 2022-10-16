@@ -510,7 +510,7 @@
 
 j
 
-(./image/gameproject.png)
+(./image/Gameproject2.png)
 
 
-<img src="./image/gameproject.png" width="500" height="300>
+<img src="./image/Gameproject2.png" width="500" height="300>
