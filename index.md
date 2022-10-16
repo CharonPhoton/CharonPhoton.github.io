@@ -510,4 +510,4 @@
 
 j
 
-<img src="./image/gameproject.png" width="500">
+<img src="./image/gameproject.png" width="1024">
