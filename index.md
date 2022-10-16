@@ -511,10 +511,6 @@
 
 <img src="./image/gameproject.png" width="1024">
 
-# [ 이벤트 흐름도 ]<a name='8'></a>
-
-<img src="./image/gameproject.png" width="1024">
-
 # [ 스토리보드 ]<a name='9'></a>
 
 <img src="./image/StoryC.png" width="1024">
