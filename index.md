@@ -530,11 +530,11 @@
 
 # [1주차 구현과정]<a name='10'></a>
 
-<img src="./image/UI_Frame_Make.png" width="1024">
+<img src="./image/UI_Frame_Make.png">
 
 회색과 푸른색으로 연속되는 틀을 먼저 만든다.
 
-<img src="./image/UIPITEM.png" width="1024">
+<img src="./image/UIPITEM.png">
 
 만들어진 틀에 아이템을 맞게 넣는다. 이 때, 푸른색은 아이템의 색으로 변경한다.
 
@@ -542,16 +542,16 @@
 
 완성본
 
-<img src="./image/Life_UI_Pro.png" width="1024">
+<img src="./image/Life_UI_Pro.png">
 
 다른 UI는 푸른색, 회색을 연속되는 형식의 틀을 만든다.
 라이프인 경우에는 라이프를 잃으면 회색으로 되어야 하기 때문에, 라이프가 안보여지면 출력되는 회색 하트를 넣는다.
 
-<img src="./image/UI_Compl.png" width="1024">
+<img src="./image/UI_Compl.png">
 
 메뉴, 재화 표시 틀 또한 만들어서 모든 만들어진 UI를 우측 상단에 적용한다.
 또한, 스테이지가 시작되면 항상 출력되는 플레이어를 추가한다.
 
-<img src="./image/Stage_UI_Com.png" width="1024">
+<img src="./image/Stage_UI_Com.png">
 
 마지막으로, 배경화면을 넣어서 스테이지에서 출력되는 오브젝트를 모두 넣는다.
