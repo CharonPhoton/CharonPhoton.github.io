@@ -541,6 +541,9 @@
 <img src="./image/Revive Gas-UI.gif">
 
 완성본
+리바이브 가스는 패시브 아이템이기 때문에 Passive의 P를 표시해둔다.
+같은 방식으로 쉴드 가스도 P로 표시하며
+유일한 액티브 아이템인 힐링 가스는 단축키 1번을 표시한다.
 
 <img src="./image/Life_UI_Pro.PNG">
 
@@ -550,6 +553,7 @@
 <img src="./image/UI_Compl.PNG">
 
 메뉴, 재화 표시 틀 또한 만들어서 모든 만들어진 UI를 우측 상단에 적용한다.
+메뉴에는 단축키인 ESC 설명을 추가한다.
 또한, 스테이지가 시작되면 항상 출력되는 플레이어를 추가한다.
 
 <img src="./image/Stage_UI_Com.PNG">
