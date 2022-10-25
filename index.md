@@ -530,4 +530,16 @@
 
 # [1주차 구현과정]<a name='10'></a>
 
+<img src="./image/UI_Frame_Make.png" width="1024">
 
+회색과 푸른색으로 연속되는 틀을 먼저 만든다.
+
+<img src="./image/UIPITEM.png" width="1024">
+
+만들어진 틀에 아이템을 맞게 넣는다.
+
+<img src="./image/Life_UI_Pro.png" width="1024">
+
+<img src="./image/UI_Compl.png" width="1024">
+
+<img src="./image/Stage_UI_Com.png" width="1024">
