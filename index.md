@@ -538,7 +538,7 @@
 
 만들어진 틀에 아이템을 맞게 넣는다. 이 때, 푸른색은 아이템의 색으로 변경한다.
 
-<img src="./image/Revive-Gas-UI.gif">
+<img src="./image/Revive Gas-UI.gif">
 
 완성본
 
