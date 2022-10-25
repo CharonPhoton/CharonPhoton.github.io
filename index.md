@@ -527,3 +527,7 @@
 # [ 스토리보드 ]<a name='9'></a>
 
 <img src="./image/StoryC.png" width="1024">
+
+# [1주차 구현과정]<a name='10'></a>
+
+
