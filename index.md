@@ -672,7 +672,7 @@
 
 # [ 프로토타입 개발작업 일정 (6주개발) ]<a name='11'></a>
 
-### [1주차 구현과정]<a name='10'></a>
+### [1주차 구현과정]
 
 <img src="./image/UI_Frame_Make.PNG">
 
@@ -710,3 +710,9 @@
 <img src="./image/Stage_UI_Com.PNG">
 
 마지막으로, 배경화면을 넣어서 스테이지에서 출력되는 오브젝트를 모두 넣는다.
+
+### [2주차 구현과정]
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./image/week2.mp4" type="video/mp4" />
+</video>
