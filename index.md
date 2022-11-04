@@ -731,7 +731,7 @@
 ### [2주차 구현과정]
 
 <video width="100%" height="100%" controls="controls">
-  <source src="./image/week2.mp4" type="video/mp4" />
+  <source src="./video/week2.mp4" type="video/mp4" />
 </video>
 
 레일이 2개일 때 지정된 Y좌표 -2 혹은 1로 플레이어가 이동되며,
@@ -743,3 +743,27 @@
 재화가 플레이어에 닿으면 재화는 파괴되며, 재화 보유 수가 1 증가한다.
 
 플레이어가 Y좌표를 바꿀 때 마다 워프 이미지가 생성되며, 일정 시간 이후에 자동으로 파괴되어 사라진다.
+
+### [3주차 구현과정]
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week2-1.mp4" type="video/mp4" />
+</video>
+
+아이템 제작 완료
+키보드 1을 누르면 체력 회복
+자동적으로 쉴드, 부활 아이템이 사용이 된다.
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week2-2.mp4" type="video/mp4" />
+</video>
+
+메뉴를 통한 일시정지 구현
+Quit 버튼은 미구현 상태 ( 4주차 때 제작 )
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week2-3.mp4" type="video/mp4" />
+</video>
+
+음원, 데이터 저장 / 로드, 프로세스 바까지 모두 완료된 상태
+이로서 스테이지 1은 완성 상태.
