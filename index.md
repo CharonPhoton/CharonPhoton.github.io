@@ -824,3 +824,41 @@ Quit 버튼은 미구현 상태 ( 4주차 때 제작 )
 이제 스테이지의 Quit버튼이 작동이 된다.
 
 추가적으로 플레이어의 히트 박스를 각 레일에 투명한 붉은색 사각형으로 표시해두었다.
+
+### [5주차 구현내용]
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week5-1.mp4" type="video/mp4" />
+</video>
+
+이제 2~5 스테이지가 그 전 스테이지를 클리어 하면 선택된다.
+
+스테이지 선택창에는 그 스테이지에 나오는 장애물의 정보, 레일의 갯수가 추가적으로 출력된다.
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week5-2.mp4" type="video/mp4" />
+</video>
+
+이제 2스테이지에서는 응축된 레슈 물질이 등장한다.
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week5-3.mp4" type="video/mp4" />
+</video>
+
+이제 3스테이지에서는 플레이어가 Space 키로 공격을 할 수 있다. 사거리는 화면의 4/3까지.
+
+날아간 화살은 약화된 레슈 물질와 충돌하면 물질과 함께 파괴되며, 파괴되는 소리와 함께 파괴 이펙트가 출력된다.
+
+움직이는 레슈 물질은 상/하를 왕복 이동할 수 있다.
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week5-4.mp4" type="video/mp4" />
+</video>
+
+4 스테이지는 레일이 3개가 되었다.
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week5-5.mp4" type="video/mp4" />
+</video>
+
+5 스테이지에서는 레일 2개를 막는 거대한 장애물이 등장한다.
