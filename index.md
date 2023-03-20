@@ -1,5 +1,7 @@
 # 프로젝트명: Path Patrol (Devloper : 박수영)
 
+<img src="./image/Poster.png" width="500">
+
 # [ 목차 ]
 
 ### 1. [컨셉](#1)
@@ -178,7 +180,7 @@
 |5|보호막 가스(Shield_Gas)|<img src="./image/Shield_Gas.gif" width="100">|
 |6|부활 가스(Revive_Gas)|<img src="./image/Revive_Gas.gif" width="100">|
 |7|차원막 파편(Dimension_Piece)|<img src="./image/Dimension_Piece.gif" width="100">|
-|8|레슈 물질(ReSu)|<img src="./image/ReSu.png" width="300">|
+|8|레슈 물질(ReSu)|<img src="./image/ReSu.gif" width="300">|
 |9|응측된 레슈 물질(UpReSu)|<img src="./image/UpReSu.png" width="300">|
 |10|약화된 레슈 물질(WeakenReSu)|<img src="./image/WeakenReSu.png" width="300">|
 |11|큰 레슈 물질(BigReSu)|<img src="./image/BigReSu.png" width="300">|
