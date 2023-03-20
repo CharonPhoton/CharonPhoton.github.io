@@ -186,7 +186,7 @@
 |11|큰 레슈 물질(BigReSu)|<img src="./image/BigReSu.png" width="300">|
 |12|움직이는 레슈 물질(MovingReSu)|<img src="./image/MovingReSu.png" width="300">|
 |13|미확인 레슈 감염 괴수(Unknown_ReSu-Infested_Monster)|<img src="./image/Boss.gif" width="300">|
-|14|화살(Arrow)|<img src="./image/Arrow.png" width="300">|
+|14|화살(Arrow)|<img src="./image/Arrow.gif" width="300">|
 |15|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
 |16|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="200">|
 |17|스테이지 최고 점수(Stage_HightScore)|<img src="./image/LegacyPoint.png" width="200">|
