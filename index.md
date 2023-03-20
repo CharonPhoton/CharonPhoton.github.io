@@ -188,7 +188,7 @@
 |13|미확인 레슈 감염 괴수(Unknown_ReSu-Infested_Monster)|<img src="./image/Boss.gif" width="300">|
 |14|화살(Arrow)|<img src="./image/Arrow.gif" width="300">|
 |15|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
-|16|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="200">|
+|16|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="400">|
 |17|스테이지 최고 점수(Stage_HightScore)|<img src="./image/LegacyPoint.png" width="200">|
 
 ## b. 파라미터(속성) 뽑아 보기<a name='6-2'></a>
