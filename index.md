@@ -1228,6 +1228,6 @@ How To Play로 조작법, 다른 정보들을 볼 수 있게 변경
 
 ### [6주차 구현과정]
 
-<img src="./image/week12.PNG">
+<img src="./image/week12.png">
 
 피드백을 받은 것을 모두 적용한다.
