@@ -1227,8 +1227,7 @@ How To Play로 조작법, 다른 정보들을 볼 수 있게 변경
 이 스테이지는 모든 장애물이 나오며, 스테이지 정보창에는 장애물과 레일의 갯수가 나오지 않는다.
 
 ### [6주차 구현과정]
-<video width="100%" height="100%" controls="controls">
-  <source src="./video/weekover1.mp4" type="video/mp4" />
-</video>
+
+<img src="./image/week12.PNG">
 
 피드백을 받은 것을 모두 적용한다.
