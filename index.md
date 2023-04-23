@@ -185,15 +185,21 @@
 |10|약화된 레슈 물질(WeakenReSu)|<img src="./image/WeakenReSu.png" width="300">|
 |11|큰 레슈 물질(BigReSu)|<img src="./image/BigReSu.png" width="300">|
 |12|움직이는 레슈 물질(MovingReSu)|<img src="./image/MovingReSu.png" width="300">|
-|13|미확인 레슈 감염 괴수(Unknown_ReSu-Infested_Monster)|<img src="./image/Boss.gif" width="300">|
-|14|화살(Arrow)|<img src="./image/Arrow.gif" width="300">|
-|15|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
-|16|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="400">|
-|17|스테이지 최고 점수(Stage_HightScore)|<img src="./image/LegacyPoint.png" width="200">|
+|13|악화된 레슈 물질(DeteriorateReSu)|<img src="./image/MovingReSu.png" width="300">|
+|14|자폭 레슈 물질(MineReSu)|<img src="./image/MovingReSu.png" width="300">|
+|15|안정된 레슈 물질(StableReSu)|<img src="./image/MovingReSu.png" width="300">|
+|15|희미한 레슈 물질(FaintReSu)|<img src="./image/MovingReSu.png" width="300">|
+|16|미확인 레슈 감염 괴수(Unknown_ReSu-Infested_Monster)|<img src="./image/Boss.gif" width="300">|
+|17|레슈 골렘(ReSuGolem)|<img src="./image/Boss.gif" width="300">|
+|18|레슈 시스템(ReSuSystem)|<img src="./image/Boss.gif" width="300">|
+|19|화살(Arrow)|<img src="./image/Arrow.gif" width="300">|
+|20|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
+|21|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="400">|
+|22|스테이지 최고 점수(Stage_HightScore)|<img src="./image/LegacyPoint.png" width="200">|
 
 ## b. 파라미터(속성) 뽑아 보기<a name='6-2'></a>
 
-1) 오브젝트 이름 : ReSu, UpReSu, WeakenReSu, BigReSu, MovingReSu
+1) 오브젝트 이름 : ReSu, UpReSu, WeakenReSu, BigReSu, MovingReSu, DeteriorateReSu, MineReSu, StableReSu, FaintReSu
 
 |속성|영문명칭|설명|
 |:----:|:----:|:----:|
@@ -214,7 +220,32 @@
 |모드 쿨다운|M_CoolDown|현 개체의 현재 무적 혹은 공격 상태의 유지 시간|
 |추가 공격 쿨다운|PA_CoolDown|공격 모드에서 또 하나의 공격의 딜레이|
 
-3) 오브젝트 이름 : Arrow
+3) 오브젝트 이름 : ReSuGolem
+
+|속성|영문명칭|설명|
+|:----:|:----:|:----:|
+|체력|Health|현 개체의 체력|
+|상태|Status|현 개체의 무적 상태, 공격 상태 여부|
+|위치|Location|현 개체의 Y좌표 위치)|
+|공격|Attack|현 개체의 공격하는 상태인지 여부|
+|이동 쿨다운|Moving_CoolDown|현 개체의 Y좌표 이동 대기 시간|
+|공격 쿨다운|Attack_CoolDown|현 개체의 공격 대기 시간|
+|공격 위치|Attack_Rail|현 개체가 공격하고 있는 레일의 위치|
+|공격 종료 쿨다운|AttackEnd_CoolDown|현 개체의 공격 종료 대기 시간|
+
+4) 오브젝트 이름 : ReSuSystem
+
+|속성|영문명칭|설명|
+|:----:|:----:|:----:|
+|체력|Health|현 개체의 체력|
+|상태|Status|현 개체의 무적 상태, 공격 상태 여부|
+|공격|Attack|현 개체의 공격하는 상태인지 여부|
+|레일|Rail|현재 스테이지의 레일의 갯수|
+|공격 종류|AttackNumber|현 개체가 취할 행동 혹은 패턴|
+|공격 쿨다운|Attack_CoolDown|현 개체의 공격 대기 시간|
+|공격 종료 쿨다운|AttackEnd_CoolDown|현 개체의 공격 종료 대기 시간|
+
+5) 오브젝트 이름 : Arrow
 
 |속성|영문명칭|설명|
 |:----:|:----:|:----:|
@@ -253,16 +284,33 @@
 |도착|Arrival|왼쪽으로 완전히 도달하면 삭제한다.|
 |상하 이동|Move_UD|위 아래로 정해진 속도로 레일 위, 아래 두 곳을 왕복 이동한다.|
 
-4) 오브젝트 이름 : WeakenReSu
+4) 오브젝트 이름 : WeakenReSu, DeteriorateReSu, StableReSu
 
 |행동|영문명칭|설명|
 |:----:|:----:|:----:|
 |이동|Move|왼쪽으로 정해진 속도로 이동한다.|
 |피격|Collsion|플레이어와 충돌할 경우 플레이어에게 정해진 공격력 만큼 피해를 주고 삭제한다.|
 |도착|Arrival|왼쪽으로 완전히 도달하면 삭제한다.|
-|파괴|Destroy|플레이어의 공격에 충돌하여 파괴된다.|
+|파괴|Destroy|플레이어의 공격에 피격 받아서 자신의 체력이 0이 되면 파괴된다.|
 
-5) 오브젝트 이름 : Unknown_ReSu-Infested_Monster
+5) 오브젝트 이름 : MineReSu
+
+|행동|영문명칭|설명|
+|:----:|:----:|:----:|
+|이동|Move|왼쪽으로 정해진 속도로 이동한다.|
+|피격|Collsion|플레이어와 충돌할 경우 플레이어에게 정해진 공격력 만큼 피해를 주고 삭제한다.|
+|도착|Arrival|왼쪽으로 완전히 도달하면 삭제한다.|
+|파괴|Destroy|플레이어의 공격에 피격 받아서 플레이어에게 정해진 공격력 만큼 피해를 주고 파괴된다.|
+
+6) 오브젝트 이름 : FaintReSu
+
+|행동|영문명칭|설명|
+|:----:|:----:|:----:|
+|이동|Move|왼쪽으로 정해진 속도로 이동한다.|
+|도착|Arrival|왼쪽으로 완전히 도달하면 삭제한다.|
+|파괴|Destroy|플레이어의 공격에 피격 받아서 플레이어에게 정해진 공격력 만큼 피해를 주고 파괴된다.|
+
+7) 오브젝트 이름 : Unknown_ReSu-Infested_Monster
 
 |행동|영문명칭|설명|
 |:----:|:----:|:----:|
@@ -272,7 +320,26 @@
 |추가 공격|Second_Attack|공격 모드일 경우 추가 공격 쿨다운이 0일 경우에 레일 3가지 중 랜덤하게 약화된 레슈 물질 오브젝트를 소환.|
 |파괴|Death|프로세스 바가 100%가 되면 사망 처리한다.|
 
-6) 오브젝트 이름 : Dimension_Piece
+8) 오브젝트 이름 : ReSuGolem
+
+|행동|영문명칭|설명|
+|:----:|:----:|:----:|
+|모드 변환|Mode_Change|현재 유지 쿨다운 시간이 0이 될 경우, 다른 패턴을 가진 모드로 바꾼다.|
+|이동 모드|Moving_Mode|이동 쿨다운이 0이 될 경우, 다른 레일로 이동하는 패턴이 된다.|
+|공격 모드|Attack_Mode|한 레일에는 계속해서 데미지를 주며, 다른 레일에서는 랜덤으로 희미한 레슈, 약화된 레슈를 쿨다운에 맞게 소환한다.|
+|파괴|Death|프로세스 바가 100%가 되면 사망 처리한다.|
+
+9) 오브젝트 이름 : ReSuSystem
+
+|행동|영문명칭|설명|
+|:----:|:----:|:----:|
+|모드 변환|Mode_Change|현재 유지 쿨다운 시간이 0이 될 경우, 무작위로 정해진 패턴을 실행한다.|
+|공격 모드 레이저|Attack_Mode_Reverse|공격 종료 대기 쿨다운이 0이 될 때까지 레일 중 무작위로 레이저를 쏜다.|
+|공격 모드 리버스|Attack_Mode_Laser|공격 종료 대기 쿨다운이 0이 될 때까지 플레이어의 이동 방향을 반대로 한다.|
+|공격 모드 자폭|Attack_Mode_Mine|공격 종료 대기 쿨다운이 0이 될 때까지 레일 중 무작위로 한 곳에는 희미한 레슈, 나머지는 자폭 레슈를 소환하는 행동을 한다.|
+|파괴|Death|프로세스 바가 100%가 되면 사망 처리한다.|
+
+10) 오브젝트 이름 : Dimension_Piece
 
 |행동|영문명칭|설명|
 |:----:|:----:|:----:|
@@ -280,7 +347,7 @@
 |획득|Get|플레이어와 충돌할 경우 플레이어의 재화에 + 1이 되며, 자신을 삭제한다.|
 |도착|Arrival|왼쪽으로 완전히 도달하면 삭제한다.|
 
-7) 오브젝트 이름 : Arrow
+11) 오브젝트 이름 : Arrow
 
 |행동|영문명칭|설명|
 |:----:|:----:|:----:|
@@ -322,16 +389,24 @@
 |Process( 진행 상태 )|충돌 상태|플레이어와 충돌한 경우|
 |Process( 진행 상태 )|도착 상태|왼쪽 화면 끝으로 완전히 도달한 경우|
 
-4) 오브젝트 이름 : WeakenReSu
+4) 오브젝트 이름 : WeakenReSu, DeteriorateReSu, StableReSu, MineReSu
 
 |현 상태|전이 상태|전이 조건|
 |:----:|:----:|:----:|
-|Process( 진행 상태 )|Process( 진행 상태 )|왼쪽, 상하로 이동하는 경우|
+|Process( 진행 상태 )|Process( 진행 상태 )|왼쪽으로 이동하는 상태|
 |Process( 진행 상태 )|충돌 상태|플레이어와 충돌한 경우|
 |Process( 진행 상태 )|도착 상태|왼쪽 화면 끝으로 완전히 도달한 경우|
 |Process( 진행 상태 )|파괴 상태|플레이어의 공격에 피격당할 경우|
 
-5) 오브젝트 이름 : Unknown_ReSu-Infested_Monster
+5) 오브젝트 이름 : FaintReSu
+
+|현 상태|전이 상태|전이 조건|
+|:----:|:----:|:----:|
+|Process( 진행 상태 )|Process( 진행 상태 )|왼쪽으로 이동하는 상태|
+|Process( 진행 상태 )|도착 상태|왼쪽 화면 끝으로 완전히 도달한 경우|
+|Process( 진행 상태 )|파괴 상태|플레이어의 공격에 피격당할 경우|
+
+6) 오브젝트 이름 : Unknown_ReSu-Infested_Monster
 
 |현 상태|전이 상태|전이 조건|
 |:----:|:----:|:----:|
@@ -341,7 +416,27 @@
 |공격 모드|추가 공격 상태|공격 모드일 때 추가 공격 쿨다운이 0이 된 경우|
 |공격 모드|사망 상태|공격 모드일 때 프로세스 바가 100%가 된 경우|
 
-6) 오브젝트 이름 : Dimension_Piece
+7) 오브젝트 이름 : ReSuGolem
+
+|현 상태|전이 상태|전이 조건|
+|:----:|:----:|:----:|
+|이동 모드|공격 모드|이동 모드일 때 공격 쿨다운이 0이 된 경우|
+|공격 모드|이동 모드|공격 모드일 때 공격 종료 쿨다운이 0이 된 경우|
+|이동 모드|사망 상태|이동 모드일 때 프로세스 바가 100%가 된 경우|
+|공격 모드|사망 상태|공격 모드일 때 프로세스 바가 100%가 된 경우|
+
+8) 오브젝트 이름 : ReSuSystem
+
+|현 상태|전이 상태|전이 조건|
+|:----:|:----:|:----:|
+|Process( 진행 상태 )|리버스|진행 상태일 때 리버스 패턴으로 정해지고, 공격 쿨다운이 0이 된 경우|
+|Process( 진행 상태 )|레이저|진행 상태일 때 레이저 패턴으로 정해지고, 공격 쿨다운이 0이 된 경우|
+|Process( 진행 상태 )|장애물|진행 상태일 때 장애물 패턴으로 정해지고, 공격 쿨다운이 0이 된 경우|
+|모든 공격 상태|Process( 진행 상태 )|공격 모드일 때 공격 종료 쿨다운이 0이 된 경우|
+|Process( 진행 상태 )|사망 상태|진행 상태일 때 프로세스 바가 100%가 된 경우|
+|모든 공격 상태|사망 상태|공격 모드일 때 프로세스 바가 100%가 된 경우|
+
+9) 오브젝트 이름 : Dimension_Piece
 
 |현 상태|전이 상태|전이 조건|
 |:----:|:----:|:----:|
@@ -349,7 +444,7 @@
 |Process( 진행 상태 )|충돌 상태|플레이어와 충돌한 경우|
 |Process( 진행 상태 )|도착 상태|왼쪽 화면 끝으로 완전히 도달한 경우|
 
-7) 오브젝트 이름 : Arrow
+10) 오브젝트 이름 : Arrow
 
 |현 상태|전이 상태|전이 조건|
 |:----:|:----:|:----:|
