@@ -1113,7 +1113,7 @@ How To Play로 조작법, 다른 정보들을 볼 수 있게 변경
 
 ### [2주차 구현과정]
 <video width="100%" height="100%" controls="controls">
-  <source src="./video/weekover1.mp4" type="video/mp4" />
+  <source src="./video/week8.mp4" type="video/mp4" />
 </video>
 
 본격적으로 스테이지 추가 작업을 한다.
@@ -1122,7 +1122,7 @@ How To Play로 조작법, 다른 정보들을 볼 수 있게 변경
 
 ### [3주차 구현과정]
 <video width="100%" height="100%" controls="controls">
-  <source src="./video/weekover1.mp4" type="video/mp4" />
+  <source src="./video/week9.mp4" type="video/mp4" />
 </video>
 
 두 번 파괴되어야 사라지는 악화된 레슈를 추가한다.
@@ -1130,7 +1130,7 @@ How To Play로 조작법, 다른 정보들을 볼 수 있게 변경
 
 ### [4주차 구현과정]
 <video width="100%" height="100%" controls="controls">
-  <source src="./video/weekover1.mp4" type="video/mp4" />
+  <source src="./video/week10.mp4" type="video/mp4" />
 </video>
 
 새로운 보스를 추가한다.
@@ -1139,8 +1139,34 @@ How To Play로 조작법, 다른 정보들을 볼 수 있게 변경
 
 ### [5주차 구현과정]
 <video width="100%" height="100%" controls="controls">
-  <source src="./video/weekover1.mp4" type="video/mp4" />
+  <source src="./video/week11-1.mp4" type="video/mp4" />
 </video>
+
+보스의 레이저 패턴
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week11-2.mp4" type="video/mp4" />
+</video>
+
+보스의 자폭 레슈 패턴
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week11-3.mp4" type="video/mp4" />
+</video>
+
+보스의 리버스 패턴
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week11-4.mp4" type="video/mp4" />
+</video>
+
+보스의 레일 3 → 2 패턴
+
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/week11-5.mp4" type="video/mp4" />
+</video>
+
+보스의 레일 2 → 3 패턴
 
 새로운 보스이자 마지막 보스를 추가한다.
 이 스테이지는 모든 장애물이 나오며, 스테이지 정보창에는 장애물과 레일의 갯수가 나오지 않는다.
