@@ -176,26 +176,28 @@
 |1|주인공데루트(Charactor)|<img src="./image/Charactor.png" width="300">|
 |2|진행도(Process_bar)|<img src="./image/Process.png" width="300">|
 |3|체력(Health)|<img src="./image/Life.gif" width="100">|
-|4|회복 가스(Healing_Gas)|<img src="./image/Healing_Gas.gif" width="100">|
-|5|보호막 가스(Shield_Gas)|<img src="./image/Shield_Gas.gif" width="100">|
-|6|부활 가스(Revive_Gas)|<img src="./image/Revive_Gas.gif" width="100">|
-|7|차원막 파편(Dimension_Piece)|<img src="./image/Dimension_Piece.gif" width="100">|
-|8|레슈 물질(ReSu)|<img src="./image/ReSu.gif" width="300">|
-|9|응측된 레슈 물질(UpReSu)|<img src="./image/UpReSu.png" width="300">|
-|10|약화된 레슈 물질(WeakenReSu)|<img src="./image/WeakenReSu.png" width="300">|
-|11|큰 레슈 물질(BigReSu)|<img src="./image/BigReSu.png" width="300">|
-|12|움직이는 레슈 물질(MovingReSu)|<img src="./image/MovingReSu.png" width="300">|
-|13|악화된 레슈 물질(DeteriorateReSu)|<img src="./image/InstaReSu.png" width="300">|
-|14|자폭 레슈 물질(MineReSu)|<img src="./image/MineReSu.png" width="300">|
-|15|안정된 레슈 물질(StableReSu)|<img src="./image/StableReSu.png" width="300">|
-|15|희미한 레슈 물질(FaintReSu)|<img src="./image/ExtraMineReSu.png" width="300">|
-|16|미확인 레슈 감염 괴수(Unknown_ReSu-Infested_Monster)|<img src="./image/Boss.gif" width="300">|
-|17|레슈 골렘(ReSuGolem)|<img src="./image/ReSuGolem.gif" width="300">|
-|18|레슈 시스템(ReSuSystem)|<img src="./image/ReSuSystem.gif" width="300">|
-|19|화살(Arrow)|<img src="./image/Arrow.gif" width="300">|
-|20|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
-|21|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="400">|
-|22|스테이지 최고 점수(Stage_HightScore)|<img src="./image/LegacyPoint.png" width="200">|
+|4|체력강화(Health_Enhance)|<img src="./image/Life_Enhance.gif" width="100">|
+|5|회복 가스(Healing_Gas)|<img src="./image/Healing_Gas.gif" width="100">|
+|6|보호막 가스(Shield_Gas)|<img src="./image/Shield_Gas.gif" width="100">|
+|7|부활 가스(Revive_Gas)|<img src="./image/Revive_Gas.gif" width="100">|
+|8|인한스 가스(Enhance_Gas)|<img src="./image/Enhance_Gas.gif" width="100">|
+|9|차원막 파편(Dimension_Piece)|<img src="./image/Dimension_Piece.gif" width="100">|
+|10|레슈 물질(ReSu)|<img src="./image/ReSu.gif" width="300">|
+|11|응측된 레슈 물질(UpReSu)|<img src="./image/UpReSu.png" width="300">|
+|12|약화된 레슈 물질(WeakenReSu)|<img src="./image/WeakenReSu.png" width="300">|
+|13|큰 레슈 물질(BigReSu)|<img src="./image/BigReSu.png" width="300">|
+|14|움직이는 레슈 물질(MovingReSu)|<img src="./image/MovingReSu.png" width="300">|
+|15|악화된 레슈 물질(DeteriorateReSu)|<img src="./image/InstaReSu.png" width="300">|
+|16|자폭 레슈 물질(MineReSu)|<img src="./image/MineReSu.png" width="300">|
+|17|안정된 레슈 물질(StableReSu)|<img src="./image/StableReSu.png" width="300">|
+|18|희미한 레슈 물질(FaintReSu)|<img src="./image/ExtraMineReSu.png" width="300">|
+|19|미확인 레슈 감염 괴수(Unknown_ReSu-Infested_Monster)|<img src="./image/Boss.gif" width="300">|
+|20|레슈 골렘(ReSuGolem)|<img src="./image/ReSuGolem.gif" width="300">|
+|21|레슈 시스템(ReSuSystem)|<img src="./image/ReSuSystem.gif" width="300">|
+|22|화살(Arrow)|<img src="./image/Arrow.gif" width="300">|
+|23|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
+|24|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="400">|
+|25|스테이지 최고 점수(Stage_HightScore)|<img src="./image/LegacyPoint.png" width="200">|
 
 ## b. 파라미터(속성) 뽑아 보기<a name='6-2'></a>
 
