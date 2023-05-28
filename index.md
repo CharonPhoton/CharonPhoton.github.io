@@ -1335,7 +1335,7 @@ How To Play로 조작법, 다른 정보들을 볼 수 있게 변경
 
 ### [10주차 구현과정]
 <video width="100%" height="100%" controls="controls">
-  <source src="./video/week16.mp4" type="video/mp4" />
+  <source src="./video/week16-1.mp4" type="video/mp4" />
 </video>
 
 마지막 아이템 라이프 가스를 구현했다.
