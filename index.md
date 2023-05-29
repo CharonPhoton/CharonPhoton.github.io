@@ -181,7 +181,7 @@
 |6|보호막 가스(Shield_Gas)|<img src="./image/Shield_Gas.gif" width="100">|
 |7|부활 가스(Revive_Gas)|<img src="./image/Revive_Gas.gif" width="100">|
 |8|인한스 가스(Enhance_Gas)|<img src="./image/Enhance_Gas.gif" width="100">|
-|9|라이프 가스(Life_Gas)|<img src="./image/Life_Gas.gif" width="100">|
+|9|라이프 가스(Life_Gas)|<img src="./image/Life_Gas-UI.gif" width="100">|
 |10|차원막 파편(Dimension_Piece)|<img src="./image/Dimension_Piece.gif" width="100">|
 |11|레슈 물질(ReSu)|<img src="./image/ReSu.gif" width="300">|
 |12|응측된 레슈 물질(UpReSu)|<img src="./image/UpReSu.png" width="300">|
