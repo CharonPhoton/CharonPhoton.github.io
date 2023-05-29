@@ -181,23 +181,24 @@
 |6|보호막 가스(Shield_Gas)|<img src="./image/Shield_Gas.gif" width="100">|
 |7|부활 가스(Revive_Gas)|<img src="./image/Revive_Gas.gif" width="100">|
 |8|인한스 가스(Enhance_Gas)|<img src="./image/Enhance_Gas.gif" width="100">|
-|9|차원막 파편(Dimension_Piece)|<img src="./image/Dimension_Piece.gif" width="100">|
-|10|레슈 물질(ReSu)|<img src="./image/ReSu.gif" width="300">|
-|11|응측된 레슈 물질(UpReSu)|<img src="./image/UpReSu.png" width="300">|
-|12|약화된 레슈 물질(WeakenReSu)|<img src="./image/WeakenReSu.png" width="300">|
-|13|큰 레슈 물질(BigReSu)|<img src="./image/BigReSu.png" width="300">|
-|14|움직이는 레슈 물질(MovingReSu)|<img src="./image/MovingReSu.png" width="300">|
-|15|악화된 레슈 물질(DeteriorateReSu)|<img src="./image/InstaReSu.png" width="300">|
-|16|자폭 레슈 물질(MineReSu)|<img src="./image/MineReSu.png" width="300">|
-|17|안정된 레슈 물질(StableReSu)|<img src="./image/StableReSu.png" width="300">|
-|18|희미한 레슈 물질(FaintReSu)|<img src="./image/ExtraMineReSu.png" width="300">|
-|19|미확인 레슈 감염 괴수(Unknown_ReSu-Infested_Monster)|<img src="./image/Boss.gif" width="300">|
-|20|레슈 골렘(ReSuGolem)|<img src="./image/ReSuGolem.gif" width="300">|
-|21|레슈 시스템(ReSuSystem)|<img src="./image/ReSuSystem.gif" width="300">|
-|22|화살(Arrow)|<img src="./image/Arrow.gif" width="300">|
-|23|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
-|24|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="400">|
-|25|스테이지 최고 점수(Stage_HightScore)|<img src="./image/LegacyPoint.png" width="200">|
+|9|라이프 가스(Life_Gas)|<img src="./image/Life_Gas.gif" width="100">|
+|10|차원막 파편(Dimension_Piece)|<img src="./image/Dimension_Piece.gif" width="100">|
+|11|레슈 물질(ReSu)|<img src="./image/ReSu.gif" width="300">|
+|12|응측된 레슈 물질(UpReSu)|<img src="./image/UpReSu.png" width="300">|
+|13|약화된 레슈 물질(WeakenReSu)|<img src="./image/WeakenReSu.png" width="300">|
+|14|큰 레슈 물질(BigReSu)|<img src="./image/BigReSu.png" width="300">|
+|15|움직이는 레슈 물질(MovingReSu)|<img src="./image/MovingReSu.png" width="300">|
+|16|악화된 레슈 물질(DeteriorateReSu)|<img src="./image/InstaReSu.png" width="300">|
+|17|자폭 레슈 물질(MineReSu)|<img src="./image/MineReSu.png" width="300">|
+|18|안정된 레슈 물질(StableReSu)|<img src="./image/StableReSu.png" width="300">|
+|19|희미한 레슈 물질(FaintReSu)|<img src="./image/ExtraMineReSu.png" width="300">|
+|20|미확인 레슈 감염 괴수(Unknown_ReSu-Infested_Monster)|<img src="./image/Boss.gif" width="300">|
+|21|레슈 골렘(ReSuGolem)|<img src="./image/ReSuGolem.gif" width="300">|
+|22|레슈 시스템(ReSuSystem)|<img src="./image/ReSuSystem.gif" width="300">|
+|23|화살(Arrow)|<img src="./image/Arrow.gif" width="300">|
+|24|메뉴(Menu)|<img src="./image/Menu.png" width="200">|
+|25|스테이지 선택(Stage_Select)|<img src="./image/Stage.png" width="400">|
+|26|스테이지 최고 점수(Stage_HightScore)|<img src="./image/LegacyPoint.png" width="200">|
 
 ## b. 파라미터(속성) 뽑아 보기<a name='6-2'></a>
 
@@ -276,6 +277,7 @@
 |회복 아이템 사용|Item_Use1|플레이어가 1키를 누르면 아이템 하나를 소비하여 체력을 하나 회복.|
 |보호막 아이템 사용|Item_Use2|플레이어가 2키를 누른 우, 아이템 하나를 소비하여 피격을 무시하고 잠시 동안 무적 상태.|
 |부활 아이템 자동 사용|Item_Use3|플레이어가 체력을 모두 잃으면 아이템 하나를 소비하여 체력을 1로 회복 후 잠시 동안 무적 상태.|
+|라이프 아이템 자동 사용|Item_Use4|플레이어가 3키를 누르면 아이템 하나를 소비하여 체력을 모두 |
 |피격|Damaged|플레이어가 장애물에 피격 당했을 경우 그 장애물의 공격력 만큼 체력 감소. 그 후 2초 동안 |
 |무적 상태|Invincibility|플레이어가 일정  동안 장애물에 피격 당하지 않은 상태가 된다.|
 
