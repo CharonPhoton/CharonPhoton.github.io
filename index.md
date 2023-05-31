@@ -1,6 +1,5 @@
 # 프로젝트명: Path Patrol (Devloper : 박수영)
 
-<img src="./image/Poster.png" width="500">
 |이전 포스터|현재 포스터|
 |:----:|:----:|
 |<img src="./image/Poster.png" width="500">|<img src="./image/Poster1.png" width="500">|
