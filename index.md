@@ -190,7 +190,7 @@
 |13|약화된 레슈 물질(WeakenReSu)|<img src="./image/WeakenReSu.png" width="300">|
 |14|큰 레슈 물질(BigReSu)|<img src="./image/BigReSu.png" width="300">|
 |15|움직이는 레슈 물질(MovingReSu)|<img src="./image/MovingReSu.png" width="300">|
-|16|악화된 레슈 물질(DeteriorateReSu)|<img src="./image/InstaReSu.png" width="300">|
+|16|악화된 레슈 물질(DeteriorateReSu)|<img src="./image/InStaReSu.png" width="300">|
 |17|자폭 레슈 물질(MineReSu)|<img src="./image/MineReSu.png" width="300">|
 |18|안정된 레슈 물질(StableReSu)|<img src="./image/StableReSu.png" width="300">|
 |19|희미한 레슈 물질(FaintReSu)|<img src="./image/ExtraMineReSu.png" width="300">|
